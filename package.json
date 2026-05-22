@@ -1,0 +1,16 @@
+{
+  "name": "reqres-api-tests",
+  "version": "1.0.0",
+  "description": "Reqres.in Demo API test automation with Playwright + TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.0",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.0"
+  }
+}
